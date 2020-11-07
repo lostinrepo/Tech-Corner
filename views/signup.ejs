@@ -1,0 +1,51 @@
+<%- include("partials/header"); -%>
+
+ <link rel="stylesheet" href="/css/sign.css">
+ 
+       
+    <br> 
+    <br> 
+    <br> 
+    <div class="container" > 
+        <div class="row"> 
+        <div class="col-md-3"> 
+                      
+        </div> 
+                  
+        <div class="col-md-6 main"> 
+                      
+            <form action="/signup" method="post"> 
+                      
+            <h1> Signup </h1> 
+                              
+            <input class="box" type="text" name="name" id="name" 
+            placeholder="Name"  required /><br> 
+                              
+            <input class="box" type="email" name="email" id="email" 
+            placeholder="E-Mail " required /><br> 
+                              
+            <input class="box" type="password" name="password" 
+            id="password" placeholder="Password " required/><br> 
+                              
+            <input class="box" type="text" name="phone" id="phone"  
+            placeholder="Phone Number " required/><br> 
+                        <br> 
+            <input type="submit" id="submitDetails"  
+            name="submitDetails" value="Submit" /><br> 
+                      
+            </form> 
+                      
+        </div> 
+                  
+                  
+        <div class="col-md-3"> 
+        </div> 
+                  
+    </div> 
+
+     <h4 class="text-center"> Already have an account ?  <a href="/login">Click Here To Login</a></h3> 
+
+    </div> 
+
+
+<%- include("partials/footer"); -%>
