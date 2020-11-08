@@ -1,0 +1,219 @@
+
+<%- include("partials/header"); -%>
+
+
+
+  
+ <div class="fixed-background">
+
+    <section id="trending" class="container trending text-center">
+
+   
+        <h1>Trending</h1>
+        <p>Check out what's now trending. </p>
+
+        <div class="row rowsetting">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="iconsetting d-block m-auto ">
+              <i class="fa fa-mobile fa-3x" ></i> 
+
+            </div> 
+
+            <h2><a href="/tech" title=""> Tech News</a> </h2>
+            <p>Get all the latest news and updates on Technology, Mobile Phones, Gadgets Review and other trending tech items.</p>
+
+           
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="iconsetting d-block m-auto ">
+              <i class="fa fa-desktop fa-3x"></i> 
+
+            </div> 
+
+            <h2><a href="/datasc" title=""> AI & Data Science</a></h2>
+            <p>Read the latest Data Science, AI, Machine Learning and Deep Learning discoveries.</p>
+
+           
+
+            </div>
+           
+
+            
+          </div>
+
+
+         	<div class="fixed-wrap">
+			<div class="fixed"></div>
+		</div>
+
+		</div>
+
+		 
+
+
+           
+       
+     </section>
+
+
+     <!-- //////////// Section 2 - Tech News /////////////// -->
+
+       <section id="tech" class="tech bg-light">
+
+      <div class="container text-center">
+      
+      <h1> Science & Tech </h1> 
+      <p>  Nowadays we're encircled by technology that undergoes changes on a daily basis. Check out some of them here. </p>
+
+       <div class="row rowsetting2">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card te1">
+              <img src="/images/ip1.jpg" class="card-img img-responsive img-fluid">
+              <div class="card-body cb1">
+                <h2 class="card-title"> Apple 12 Offers New Ways To Shop  </h2>
+                <p class="card-text"> New ways to shop for the all-new iPhone 12, iPhone 12 Pro, and iPad Air </p>
+              </div> 
+
+         
+   
+ 
+              <a href="/posts/<%= posts[0]._id%>" class="btn btn-light">Checkout Post</a> 
+             
+
+            </div> 
+
+           
+           
+
+            </div>
+
+               <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card te2">
+              <img src="/images/ip2.jpg" class="card-img img-responsive img-fluid">
+              <div class="card-body   cb2">
+                <h2 class="card-title"> New MacBook Air Has More To Love </h2>
+                <p class="card-text"> The Most Popular Mac Now Has Up to 2x Faster Performance, the New Magic Keyboard and Twice the Storage  </p>
+              </div> 
+               <a href="/posts/<%= posts[1]._id%>" class="btn btn-light">Checkout Post</a> 
+
+            </div> 
+ 
+            </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card te3">
+              <img src="/images/ip3.jpg" class="card-img img-responsive img-fluid">
+              <div class="card-body cb3">
+                <h2 class="card-title"> Canon EOS M50 Mark II.</h2>
+                <p class="card-text">  Information about Mark II leaks out ahead of the official announcement </p>
+              </div> 
+
+               <a href="/posts/<%= posts[2]._id%>" class="btn btn-light">Checkout Post</a> 
+               
+
+
+            </div> 
+ 
+            </div>
+
+          </div>
+
+
+       
+       
+
+     </div>
+
+
+
+
+
+        
+      </section>
+
+
+
+
+      <!-- //////////// Section 3 - Data Science /////////////// -->
+
+
+      <section id="ds" class="datas bg-light">
+
+      <div class="container text-center  ">
+      
+      <h1> Data Science</h1> 
+      <p>  Hiding within those mounds of data is knowledge that could change the change the world. </p>
+
+       <div class="row rowsetting3">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card da1">
+              <img src="/images/ip4.png" class="card-img img-responsive img-fluid">
+              <div class="card-body cb4">
+                <h2 class="card-title"> Low Effort Machine Learning Tools</h2>
+                <p class="card-text"> 
+                 <a href="/posts/<%= posts[3]._id%>" class="btn btn-warning">Read More</a> 
+
+            </div> 
+             </div> 
+
+           
+           
+
+            </div>
+
+               <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card da2">
+              <img src="/images/ip5.jpg" class="card-img img-responsive img-fluid">
+              <div class="card-body cb5">
+                <h2 class="card-title"> 4 AI Stocks That Will Surge in 2021 as Artificial Intelligence Takes Hold </h2>
+                <p class="card-text"> </p>
+                <a href="/posts/<%= posts[4]._id%>" class="btn btn-warning">Read More</a> 
+              </div> 
+
+            </div> 
+ 
+            </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card da3">
+              <img src="/images/ip6.jpg" class="card-img img-responsive img-fluid">
+              <div class="card-body cb6">
+                <h2 class="card-title"> Deep Learning Algorithms Capable of Identifying Structures In Living Cell  </h2>
+                <p class="card-text">  </p>
+                <a href="/posts/<%= posts[5]._id%>" class="btn btn-warning">Read More</a> 
+
+      
+              </div> 
+
+            </div> 
+ 
+            </div>
+
+          </div>
+
+
+       
+       
+
+     </div>
+
+
+
+
+
+        
+      </section>
+
+
+    
+
+
+
+
+ 
+
+ 
+
+<%- include("partials/footer"); -%>

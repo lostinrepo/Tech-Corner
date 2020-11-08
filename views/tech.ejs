@@ -1,0 +1,171 @@
+
+<%- include("partials/header"); -%>
+
+ <div class="container">
+
+    <h1 class="text-center">Science & Tech</h1>
+ 
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/images/tech1.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+    <h5>Moon's Lost Twin</h5>
+    <p>Asteroid Trailing Mars May Be Our Moon’s Long-Lost Twin</p>
+  </div>
+    
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/images/tech2.png" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+    <h5>Genetic Microlab </h5>
+    <p>Stanford Engineers Develop Genetic Microlab That Can Detect COVID-19 in Minutes</p>
+  </div>
+    
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/images/tech3.png" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+    <h5>Zircon Crystals</h5>
+    <p>The Danger of Sleeping Volcanoes Revealed by Zircon Crystals</p>
+  </div>
+    
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+      <section id="tech" class="tech bg-light techp">
+
+       <div class="row rowsetting2">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card te1">
+              <img src="/images/tech4.jpg" class="card-img img-responsive img-fluid">
+              <div class="card-body cb1">
+                <h2 class="card-title"> Google Messages Starts Rolling Out Text Scheduling Feature. </h2>
+                <p class="card-text"> Google Messages' latest feature will reportedly let users schedule their messages. </p>
+              </div> 
+
+     
+   
+ 
+              <a href="/posts/<%= posts[6]._id %>" class="btn btn-light">Checkout Post</a> 
+             
+
+            </div> 
+
+           
+           
+
+            </div>
+
+               <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card te2">
+              <img src="/images/tech5.jpg" class="card-img img-responsive img-fluid">
+              <div class="card-body   cb2">
+                <h2 class="card-title">WhatsApp Disappearing Messages Feature Launched, Rollout Awaited ! </h2>
+                <p class="card-text"> WhatsApp has officially announced that it will be introducing a new ‘Disappearing Messages' feature through an update that rolls out globally this month. </p>
+              </div> 
+               <a href="/posts/<%= posts[7]._id %>" class="btn btn-light">Checkout Post</a> 
+
+            </div> 
+ 
+            </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="card te3">
+              <img src="/images/tech6.jpg" class="card-img img-responsive img-fluid">
+              <div class="card-body cb3">
+                <h2 class="card-title"> A Drop In Temperature.</h2>
+                <p class="card-text">  In the nearly two centuries since 98.6 degrees Fahrenheit (37.0 degrees Celsius) was established as the standard 'normal' body temperature.</p>
+              </div> 
+
+               <a href="/posts/<%= posts[8]._id %>" class="btn btn-light">Checkout Post</a> 
+               
+
+
+            </div> 
+ 
+            </div>
+
+          </div>
+
+
+       
+       
+
+     </div>
+
+
+
+
+
+        
+      </section>
+
+
+  <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="/images/tech7.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Apple’s AirPods are $60 Off This Weekend. </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                     <a href="/posts/<%= posts[9]._id %>" class="btn btn-light">View</a> 
+                    </div>
+                    <small class="text-muted">7 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="/images/tech8.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Astronomers Develop New Way To Spot Galaxies’ Dark Matter.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    <a href="/posts/<%= posts[10]._id %>" class="btn btn-light">View</a> 
+                    </div>
+                    <small class="text-muted">7 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="images/tech9.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">HomePod mini: Apple Announces New, Tiny Smart Speaker.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="/posts/<%= posts[11]._id %>" class="btn btn-light">View</a> 
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+</div>
+
+
+    
+
+<%- include("partials/footer"); -%>
