@@ -57,9 +57,11 @@ app.get("/signup_success", function(req, res){
 
 app.get("/tech", function(req, res){
 
-  
-    res.render("tech");
- 
+    Post.find({}, function(err, posts){
+    res.render("tech", {
+     posts: posts
+      });
+  });
 });
 
 app.get("/compose", function(req, res){
